@@ -1,4 +1,0 @@
-
-#Get the HyperflexFeatureLimitExternal to Update
-$HyperflexFeatureLimitExternal = Get-IntersightHyperflexFeatureLimitExternal -Name HyperflexFeatureLimitExternalName
-$HyperflexFeatureLimitExternal | Set-IntersightHyperflexFeatureLimitExternal -Description 'Updated description'

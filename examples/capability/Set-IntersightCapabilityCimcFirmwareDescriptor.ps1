@@ -1,4 +1,0 @@
-
-#Get the CapabilityCimcFirmwareDescriptor to Update
-$CapabilityCimcFirmwareDescriptor = Get-IntersightCapabilityCimcFirmwareDescriptor -Name CapabilityCimcFirmwareDescriptorName
-$CapabilityCimcFirmwareDescriptor | Set-IntersightCapabilityCimcFirmwareDescriptor -Description 'Updated description'

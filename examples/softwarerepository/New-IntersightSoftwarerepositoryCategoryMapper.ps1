@@ -1,1 +1,0 @@
-$softwarerepository_category_mapper1 = New-IntersightSoftwarerepositoryCategoryMapper -Name 'softwarerepository_category_mapper1' -Category 'Integrated Services Routers' -FileType 'OperatingSystemFile'

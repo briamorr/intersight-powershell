@@ -1,4 +1,0 @@
-
-#Get the CapabilitySwitchManufacturingDef to Update
-$CapabilitySwitchManufacturingDef = Get-IntersightCapabilitySwitchManufacturingDef -Name CapabilitySwitchManufacturingDefName
-$CapabilitySwitchManufacturingDef | Set-IntersightCapabilitySwitchManufacturingDef -Description 'Updated description'

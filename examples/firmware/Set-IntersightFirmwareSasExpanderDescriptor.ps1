@@ -1,4 +1,0 @@
-
-#Get the FirmwareSasExpanderDescriptor to Update
-$FirmwareSasExpanderDescriptor = Get-IntersightFirmwareSasExpanderDescriptor -Name FirmwareSasExpanderDescriptorName
-$FirmwareSasExpanderDescriptor | Set-IntersightFirmwareSasExpanderDescriptor -Description 'Updated description'

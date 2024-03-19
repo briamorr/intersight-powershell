@@ -1,7 +1,0 @@
-
-#Get the CapabilitySiocModuleManufacturingDef to delete
-$CapabilitySiocModuleManufacturingDef = Get-IntersightCapabilitySiocModuleManufacturingDef -Name CapabilitySiocModuleManufacturingDefName
-$CapabilitySiocModuleManufacturingDef | Remove-IntersightCapabilitySiocModuleManufacturingDef
-
-#Remove the CapabilitySiocModuleManufacturingDef by Moid.
-Remove-IntersightCapabilitySiocModuleManufacturingDef -Moid '<Replace with Moid>'

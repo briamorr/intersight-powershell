@@ -1,1 +1,0 @@
-$fabric_fc_uplink_pc_role1 = New-IntersightFabricFcUplinkPcRole -AdminSpeed 'Auto' -FillPattern 'Idle' -VsanId 10

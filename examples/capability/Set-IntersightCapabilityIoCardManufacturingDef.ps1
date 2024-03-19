@@ -1,4 +1,0 @@
-
-#Get the CapabilityIoCardManufacturingDef to Update
-$CapabilityIoCardManufacturingDef = Get-IntersightCapabilityIoCardManufacturingDef -Name CapabilityIoCardManufacturingDefName
-$CapabilityIoCardManufacturingDef | Set-IntersightCapabilityIoCardManufacturingDef -Description 'Updated description'

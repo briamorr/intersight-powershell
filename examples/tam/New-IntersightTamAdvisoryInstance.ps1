@@ -1,1 +1,0 @@
-$tam_tam_advisory_instance = New-IntersightTamAdvisoryInstance -State 'cleared'

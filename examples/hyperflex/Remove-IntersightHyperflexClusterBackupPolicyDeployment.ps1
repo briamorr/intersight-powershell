@@ -1,7 +1,0 @@
-
-#Get the HyperflexClusterBackupPolicyDeployment to delete
-$HyperflexClusterBackupPolicyDeployment = Get-IntersightHyperflexClusterBackupPolicyDeployment -Name HyperflexClusterBackupPolicyDeploymentName
-$HyperflexClusterBackupPolicyDeployment | Remove-IntersightHyperflexClusterBackupPolicyDeployment
-
-#Remove the HyperflexClusterBackupPolicyDeployment by Moid.
-Remove-IntersightHyperflexClusterBackupPolicyDeployment -Moid '<Replace with Moid>'

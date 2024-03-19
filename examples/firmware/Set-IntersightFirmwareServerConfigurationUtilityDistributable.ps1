@@ -1,4 +1,0 @@
-
-#Get the FirmwareServerConfigurationUtilityDistributable to delete
-$FirmwareServerConfigurationUtilityDistributable = Ge-IntersightFirmwareServerConfigurationUtilityDistributable -Name FirmwareServerConfigurationUtilityDistributableName
-$FirmwareServerConfigurationUtilityDistributable | Set-IntersightFirmwareServerConfigurationUtilityDistributable -Description 'Updated description'

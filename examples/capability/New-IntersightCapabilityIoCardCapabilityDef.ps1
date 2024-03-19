@@ -1,1 +1,0 @@
-$capability_io_card_capability_def1 = New-IntersightCapabilityIoCardCapabilityDef -Name 'capability_io_card_capability_def1' -DcSupported 1

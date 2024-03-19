@@ -1,1 +1,0 @@
-$firmware_drive_descriptor1 = New-IntersightFirmwareDriveDescriptor -Description 'firmware drive descriptor' -Model 'LT0400MO' -Vendor 'Dell EMC Enterprise SSDs' -Revision '0'

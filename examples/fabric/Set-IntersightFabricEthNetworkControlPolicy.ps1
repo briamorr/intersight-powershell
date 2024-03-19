@@ -1,4 +1,0 @@
-
-#Get the FabricEthNetworkControlPolicy to Update
-$FabricEthNetworkControlPolicy = Get-IntersightFabricEthNetworkControlPolicy -Name FabricEthNetworkControlPolicyName
-$FabricEthNetworkControlPolicy | Set-IntersightFabricEthNetworkControlPolicy -Description 'Updated description'

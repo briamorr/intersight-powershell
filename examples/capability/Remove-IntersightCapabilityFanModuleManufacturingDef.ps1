@@ -1,7 +1,0 @@
-
-#Get the CapabilityFanModuleManufacturingDef to delete
-$CapabilityFanModuleManufacturingDef = Get-IntersightCapabilityFanModuleManufacturingDef -Name CapabilityFanModuleManufacturingDefName
-$CapabilityFanModuleManufacturingDef | Remove-IntersightCapabilityFanModuleManufacturingDef
-
-#Remove the CapabilityFanModuleManufacturingDef by Moid.
-Remove-IntersightCapabilityFanModuleManufacturingDef -Moid '<Replace with Moid>'

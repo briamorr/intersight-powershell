@@ -1,1 +1,0 @@
-$softwarerepository_category_mapper_model = New-IntersightSoftwarerepositoryCategoryMapperModel -Name 'softwarerepository_category_mapper_models' -Category 'Integrated Services Routers' -SeriesId '4000'

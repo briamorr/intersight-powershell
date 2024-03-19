@@ -1,4 +1,0 @@
-
-#Get the HyperflexClusterBackupPolicyDeployment to Update
-$HyperflexClusterBackupPolicyDeployment = Get-IntersightHyperflexClusterBackupPolicyDeployment -Name HyperflexClusterBackupPolicyDeploymentName
-$HyperflexClusterBackupPolicyDeployment | Set-IntersightHyperflexClusterBackupPolicyDeployment -Description 'Updated description'

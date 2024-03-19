@@ -1,7 +1,0 @@
-
-#Get the HyperflexHxapVirtualMachineNetworkInterface to delete
-$HyperflexHxapVirtualMachineNetworkInterface = Get-IntersightHyperflexHxapVirtualMachineNetworkInterface -Name HyperflexHxapVirtualMachineNetworkInterfaceName
-$HyperflexHxapVirtualMachineNetworkInterface | Remove-IntersightHyperflexHxapVirtualMachineNetworkInterface
-
-#Remove the HyperflexHxapVirtualMachineNetworkInterface by Moid.
-Remove-IntersightHyperflexHxapVirtualMachineNetworkInterface -Moid '<Replace with Moid>'

@@ -1,1 +1,0 @@
-$fabric_port_operation1 = New-IntersightFabricPortOperation -AggregatePortId 0 -PortId 1 -SlotId 100 -ConfigState 'Applied'

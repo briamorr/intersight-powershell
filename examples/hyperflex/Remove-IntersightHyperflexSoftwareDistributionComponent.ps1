@@ -1,7 +1,0 @@
-
-#Get the HyperflexSoftwareDistributionComponent to delete
-$HyperflexSoftwareDistributionComponent = Get-IntersightHyperflexSoftwareDistributionComponent -Name HyperflexSoftwareDistributionComponentName
-$HyperflexSoftwareDistributionComponent | Remove-IntersightHyperflexSoftwareDistributionComponent
-
-#Remove the HyperflexSoftwareDistributionComponent by Moid.
-Remove-IntersightHyperflexSoftwareDistributionComponent -Moid '<Replace with Moid>'

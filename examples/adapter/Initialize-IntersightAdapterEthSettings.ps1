@@ -1,1 +1,0 @@
-Initialize-IntersightAdapterEthSettings -LldpEnabled 1

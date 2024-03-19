@@ -1,7 +1,0 @@
-
-#Get the KubernetesVirtualMachineInfraConfigPolicy to delete
-$KubernetesVirtualMachineInfraConfigPolicy = Get-IntersightKubernetesVirtualMachineInfraConfigPolicy -Name KubernetesVirtualMachineInfraConfigPolicyName
-$KubernetesVirtualMachineInfraConfigPolicy | Remove-IntersightKubernetesVirtualMachineInfraConfigPolicy
-
-#Remove the server profile by Moid.
-Remove-IntersightKubernetesVirtualMachineInfraConfigPolicy -Moid '<Replace with Moid>'

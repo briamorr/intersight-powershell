@@ -1,7 +1,0 @@
-
-#Get the HyperflexHealthCheckPackageChecksum to delete
-$HyperflexHealthCheckPackageChecksum = Get-IntersightHyperflexHealthCheckPackageChecksum -Name HyperflexHealthCheckPackageChecksumName
-$HyperflexHealthCheckPackageChecksum | Remove-IntersightHyperflexHealthCheckPackageChecksum
-
-#Remove the HyperflexHealthCheckPackageChecksum by Moid.
-Remove-IntersightHyperflexHealthCheckPackageChecksum -Moid '<Replace with Moid>'

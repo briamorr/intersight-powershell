@@ -1,6 +1,0 @@
-#Get the SoftwarerepositoryCategorySupportConstraint to delete
-$SoftwarerepositoryCategorySupportConstraint = Get-IntersightSoftwarerepositoryCategorySupportConstraint -Name SoftwarerepositoryCategorySupportConstraintName
-$SoftwarerepositoryCategorySupportConstraint | Remove-IntersightSoftwarerepositoryCategorySupportConstraint
-
-#Remove the SoftwarerepositoryCategorySupportConstraint by Moid.
-Remove-IntersightSoftwarerepositoryCategorySupportConstraint -Moid '<Replace with Moid>'

@@ -1,6 +1,0 @@
-#Get the SoftwarerepositoryOperatingSystemFile to delete
-$SoftwarerepositoryOperatingSystemFile = Get-IntersightSoftwarerepositoryOperatingSystemFile -Name SoftwarerepositoryOperatingSystemFileName
-$SoftwarerepositoryOperatingSystemFile | Remove-IntersightSoftwarerepositoryOperatingSystemFile
-
-#Remove the SoftwarerepositoryOperatingSystemFile by Moid.
-Remove-IntersightSoftwarerepositoryOperatingSystemFile -Moid '<Replace with Moid>'

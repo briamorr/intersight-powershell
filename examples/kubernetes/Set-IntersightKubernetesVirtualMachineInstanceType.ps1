@@ -1,4 +1,0 @@
-
-#Get the KubernetesVirtualMachineInstanceType to Update
-$KubernetesVirtualMachineInstanceType = Get-IntersightKubernetesVirtualMachineInstanceType -Name KubernetesVirtualMachineInstanceTypeName
-$KubernetesVirtualMachineInstanceType | Set-IntersightKubernetesVirtualMachineInstanceType -Description 'Updated description'

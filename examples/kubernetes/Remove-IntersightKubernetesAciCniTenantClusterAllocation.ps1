@@ -1,7 +1,0 @@
-
-#Get the KubernetesAciCniTenantClusterAllocation to delete
-$KubernetesAciCniTenantClusterAllocation = Get-IntersightKubernetesAciCniTenantClusterAllocation -Name KubernetesAciCniTenantClusterAllocationName
-$KubernetesAciCniTenantClusterAllocation | Remove-IntersightKubernetesAciCniTenantClusterAllocation
-
-#Remove the server profile by Moid.
-Remove-IntersightKubernetesAciCniTenantClusterAllocation -Moid '<Replace with Moid>'

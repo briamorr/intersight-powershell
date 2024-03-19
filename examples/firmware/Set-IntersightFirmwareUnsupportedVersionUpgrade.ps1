@@ -1,4 +1,0 @@
-
-#Get the FirmwareUnsupportedVersionUpgrade to Update
-$FirmwareUnsupportedVersionUpgrade = Get-IntersightFirmwareUnsupportedVersionUpgrade -Name FirmwareUnsupportedVersionUpgradeName
-$FirmwareUnsupportedVersionUpgrade | Set-IntersightFirmwareUnsupportedVersionUpgrade -Description 'Updated description'

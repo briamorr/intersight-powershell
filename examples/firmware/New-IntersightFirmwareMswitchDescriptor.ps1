@@ -1,1 +1,0 @@
-$firmware_mswitch_descriptor = New-IntersightFirmwareMswitchDescriptor -Moid '<Replace with Moid>'

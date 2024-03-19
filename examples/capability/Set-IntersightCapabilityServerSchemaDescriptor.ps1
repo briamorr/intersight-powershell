@@ -1,4 +1,0 @@
-
-#Get the CapabilityServerSchemaDescriptor to Update
-$CapabilityServerSchemaDescriptor = Get-IntersightCapabilityServerSchemaDescriptor -Name CapabilityServerSchemaDescriptorName
-$CapabilityServerSchemaDescriptor | Set-IntersightCapabilityServerSchemaDescriptor -Description 'Updated description'

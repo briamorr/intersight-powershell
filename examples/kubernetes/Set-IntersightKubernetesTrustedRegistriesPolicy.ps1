@@ -1,4 +1,0 @@
-
-#Get the KubernetesTrustedRegistriesPolicy to Update
-$KubernetesTrustedRegistriesPolicy = Get-IntersightKubernetesTrustedRegistriesPolicy -Name KubernetesTrustedRegistriesPolicyName
-$KubernetesTrustedRegistriesPolicy | Set-IntersightKubernetesTrustedRegistriesPolicy -Description 'Updated description'

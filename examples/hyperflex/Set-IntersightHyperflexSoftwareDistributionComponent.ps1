@@ -1,4 +1,0 @@
-
-#Get the HyperflexSoftwareDistributionComponent to Update
-$HyperflexSoftwareDistributionComponent = Get-IntersightHyperflexSoftwareDistributionComponent -Name HyperflexSoftwareDistributionComponentName
-$HyperflexSoftwareDistributionComponent | Set-IntersightHyperflexSoftwareDistributionComponent -Description 'Updated description'

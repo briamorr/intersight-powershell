@@ -1,1 +1,0 @@
-$firmware_dimm_descriptor1 = New-IntersightFirmwareDimmDescriptor -Description 'firmware dimm descriptor' -Model 'N01-M308GB2' -Vendor 'Samsung Electronics, Inc.' -Revision '0'

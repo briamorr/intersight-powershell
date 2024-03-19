@@ -1,7 +1,0 @@
-
-#Get the SoftwareHyperflexBundleDistributable to delete
-$SoftwareHyperflexBundleDistributable = Get-IntersightSoftwareHyperflexBundleDistributable -Name SoftwareHyperflexBundleDistributableName
-$SoftwareHyperflexBundleDistributable | Remove-IntersightSoftwareHyperflexBundleDistributable
-
-#Remove the SoftwareHyperflexBundleDistributable by Moid.
-Remove-IntersightSoftwareHyperflexBundleDistributable -Moid '<Replace with Moid>'

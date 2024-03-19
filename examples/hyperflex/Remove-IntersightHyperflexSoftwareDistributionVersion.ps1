@@ -1,7 +1,0 @@
-
-#Get the HyperflexSoftwareDistributionVersion to delete
-$HyperflexSoftwareDistributionVersion = Get-IntersightHyperflexSoftwareDistributionVersion -Name HyperflexSoftwareDistributionVersionName
-$HyperflexSoftwareDistributionVersion | Remove-IntersightHyperflexSoftwareDistributionVersion
-
-#Remove the HyperflexSoftwareDistributionVersion by Moid.
-Remove-IntersightHyperflexSoftwareDistributionVersion -Moid '<Replace with Moid>'

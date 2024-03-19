@@ -1,1 +1,0 @@
-$firmware_storage_controller_descriptor1 = New-IntersightFirmwareStorageControllerDescriptor -Description 'firmware storage controller descriptor' -Model 'UCSC-RAID-M5' -Vendor 'Cisco Systems, Inc' -Revision '0'

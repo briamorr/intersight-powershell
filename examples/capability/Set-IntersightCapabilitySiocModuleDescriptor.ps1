@@ -1,4 +1,0 @@
-
-#Get the CapabilitySiocModuleDescriptor to Update
-$CapabilitySiocModuleDescriptor = Get-IntersightCapabilitySiocModuleDescriptor -Name CapabilitySiocModuleDescriptorName
-$CapabilitySiocModuleDescriptor | Set-IntersightCapabilitySiocModuleDescriptor -Description 'Updated description'

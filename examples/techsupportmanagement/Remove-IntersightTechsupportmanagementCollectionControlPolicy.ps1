@@ -1,6 +1,0 @@
-#Get the TechsupportmanagementCollectionControlPolicy to delete
-$TechsupportmanagementCollectionControlPolicy = Get-IntersightTechsupportmanagementCollectionControlPolicy -Name TechsupportmanagementCollectionControlPolicyName
-$TechsupportmanagementCollectionControlPolicy | Remove-IntersightTechsupportmanagementCollectionControlPolicy
-
-#Remove the TechsupportmanagementCollectionControlPolicy by Moid.
-Remove-IntersightTechsupportmanagementCollectionControlPolicy -Moid '<Replace with Moid>'

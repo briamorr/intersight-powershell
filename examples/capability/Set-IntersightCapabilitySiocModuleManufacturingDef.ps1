@@ -1,4 +1,0 @@
-
-#Get the CapabilitySiocModuleManufacturingDef to Update
-$CapabilitySiocModuleManufacturingDef = Get-IntersightCapabilitySiocModuleManufacturingDef -Name CapabilitySiocModuleManufacturingDefName
-$CapabilitySiocModuleManufacturingDef | Set-IntersightCapabilitySiocModuleManufacturingDef -Description 'Updated description'

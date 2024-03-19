@@ -1,4 +1,0 @@
-
-#Get the CapabilityPortGroupAggregationDef to Update
-$CapabilityPortGroupAggregationDef = Get-IntersightCapabilityPortGroupAggregationDef -Name CapabilityPortGroupAggregationDefName
-$CapabilityPortGroupAggregationDef | Set-IntersightCapabilityPortGroupAggregationDef -Description 'Updated description'

@@ -1,4 +1,0 @@
-
-#Get the HyperflexExtIscsiStoragePolicy to Update
-$HyperflexExtIscsiStoragePolicy = Get-IntersightHyperflexExtIscsiStoragePolicy -Name HyperflexExtIscsiStoragePolicyName
-$HyperflexExtIscsiStoragePolicy | Set-IntersightHyperflexExtIscsiStoragePolicy -Description 'Updated description'

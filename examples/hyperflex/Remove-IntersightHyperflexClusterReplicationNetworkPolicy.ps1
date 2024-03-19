@@ -1,7 +1,0 @@
-
-#Get the HyperflexClusterReplicationNetworkPolicy to delete
-$HyperflexClusterReplicationNetworkPolicy = Get-IntersightHyperflexClusterReplicationNetworkPolicy -Name HyperflexClusterReplicationNetworkPolicyName
-$HyperflexClusterReplicationNetworkPolicy | Remove-IntersightHyperflexClusterReplicationNetworkPolicy
-
-#Remove the HyperflexClusterReplicationNetworkPolicy by Moid.
-Remove-IntersightHyperflexClusterReplicationNetworkPolicy -Moid '<Replace with Moid>'

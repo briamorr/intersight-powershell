@@ -1,1 +1,0 @@
-$fabric_pc_operation1 = New-IntersightFabricPcOperation -AdminState 'Enabled' -ConfigState 'Applied' -PcId 100
